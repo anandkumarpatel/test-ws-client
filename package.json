@@ -1,0 +1,23 @@
+{
+  "name": "test-ws-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "http-server": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -p $PORT"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandkumarpatel/test-ws-client.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandkumarpatel/test-ws-client/issues"
+  },
+  "homepage": "https://github.com/anandkumarpatel/test-ws-client#readme"
+}

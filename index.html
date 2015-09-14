@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p id="demo"></p>
+    <script src="http://localhost:8080/primus/primus.js"></script>
+    <script>
+    // connect to current URL
+    var primus = Primus.connect("http://localhost:8080")
+
+    primus.on("open", function() {
+        console.log("Connected!")
+    })
+
+    primus.on("data", function(data) {
+        document.getElementById("demo").innerHTML += data + "<br>";
+    })
+    </script>
+</body>
+
+</html>
