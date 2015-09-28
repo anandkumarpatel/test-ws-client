@@ -20,7 +20,7 @@ old-test
 
 *.pyc
 docs
-
+ 
 !test/lib/fixtures/master.tar.gz
 test/fixtures/graphs/neo4j/conf/ssl/
 test/fixtures/graphs/neo4j/data/graph.db/
